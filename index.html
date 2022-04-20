@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Inconsolata|Montserrat&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/3044147bd6.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Animals Quiz</title>
+  </head>
+  <body>
+    <div id="root">
+      <header role="heading">
+        <a href="">
+          <h1>Animals</h1>
+          <img class="logo" src="./images/abc-logo.png" alt="logo" />
+        </a>
+      </header>
+      <main>
+        <img
+          class="landing"
+          src="./images/animals.jpg"
+          alt="animals"
+        />
+        <p>What class of animals would you like to study about?</p>
+        <div class="start-buttons">
+          <button class="start-insects">Insects</button>
+          <button class="start-reptiles">Reptiles</button>
+          <button class="start-amphibians">Amphibians</button>
+          <button class="start-mammals">Mammals</button>
+        </div>
+      </main>
+      <footer>
+        
+      </footer>
+    </div>
+
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+    ></script>
+    <script src="questions/insects-questions.js"></script>
+    <script src="questions/reptiles-questions.js"></script>
+    <script src="questions/amphibians-questions.js"></script>
+    <script src="questions/mammals-questions.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
